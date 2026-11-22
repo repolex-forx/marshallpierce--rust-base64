@@ -54,6 +54,94 @@
       ],
       "ast": [
         "aggregate/ast/e14400697453bcc85997119b874bc03d9601d0af/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e14400697453bcc85997119b874bc03d9601d0af.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.4.0",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubCommit": "5e27b692a43a05736d073fd449e16dcf1c24628c",
+          "githubTag": "0.4.0",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.5",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "937320cbfeebd4352a23086d9c6e68f067f74644",
+          "githubTag": "0.8.5",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "3.2.25",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "3bd502024e45cc9abef690f28783d76a9ce33500",
+          "githubTag": "v3.2.25",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "strum",
+          "ecosystem": "CARGO",
+          "version": "0.25",
+          "githubOrg": "Peternator7",
+          "githubRepo": "strum",
+          "githubUrl": "https://github.com/Peternator7/strum",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rstest",
+          "ecosystem": "CARGO",
+          "version": "0.13.0",
+          "githubOrg": "la10736",
+          "githubRepo": "rstest",
+          "githubCommit": "0cc026746324a111168782d5aa1a6da8affbb634",
+          "githubTag": "0.13.0",
+          "githubUrl": "https://github.com/la10736/rstest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rstest_reuse",
+          "ecosystem": "CARGO",
+          "version": "0.6.0",
+          "githubOrg": "la10736",
+          "githubRepo": "rstest",
+          "githubCommit": "04f3ddd2c64908baa9d57007d89e9eeb9106fec4",
+          "githubTag": "0.6.0",
+          "githubUrl": "https://github.com/la10736/rstest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "once_cell",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "matklad",
+          "githubRepo": "once_cell",
+          "githubUrl": "https://github.com/matklad/once_cell",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_core",
+          "ecosystem": "CARGO",
+          "version": "0.6.4",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_core",
+          "githubCommit": "89a1336b934c68ddce548127c6f8afd910b35a18",
+          "githubTag": "v0.6.4",
+          "githubUrl": "https://github.com/rust-random/rand_core",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs"
+        }
       ]
     }
   ],
