@@ -1,0 +1,11 @@
+{
+  "org": "marshallpierce",
+  "repo": "rust-base64",
+  "versions": [
+    {
+      "commit": "e14400697453bcc85997119b874bc03d9601d0af",
+      "tag": "v0.22.1",
+      "parsed_at": "2026-11-22T05:49:34.649789+00:00"
+    }
+  ]
+}
